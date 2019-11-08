@@ -17,6 +17,7 @@ require 'pry'
 def speak_to_grandma(phrase)
     if 'I LOVE YOU GRANDMA!' == phrase
       return 'I LOVE YOU TOO PUMPKIN!'
+<<<<<<< HEAD
     elsif phrase.upcase == phrase
         #binding.pry
        return "NO, NOT SINCE 1938!"
@@ -25,5 +26,13 @@ def speak_to_grandma(phrase)
      else
        "HUH?! SPEAK UP, SONNY!"
        
+=======
+    elsif phrase.capitalize == phrase
+       return  "HUH?! SPEAK UP, SONNY!"
+       
+   #binding.pry
+     else
+       '
+>>>>>>> f3ab800e5bcff57fdb6a2fc79b153d6e59f58872
     end
 end
